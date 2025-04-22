@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Reveal
-  m_Shader: {fileID: -6465566751694194690, guid: daa04fa77b8bf244a8ee8db36a73e195, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: a2e10e08811a6554595a28b805c1605e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Base_Texture:
+        m_Texture: {fileID: 2800000, guid: 1c39fc8d49e783b42a25d8656d9187c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6e07d2ecf78b43c489bdd2a8c0b4d61e_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 5f7afdd21dba2c8448d8f33349c214b1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -48,12 +52,13 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Radius: 2
+    - _Radius: 14.48
     - _Scale: 1
-    - _Smoothness: 1
+    - _Smoothness: 0
+    - _Uses_Alpha: 0
     m_Colors:
-    - _Area_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _BorderColor: {r: 1, g: 0.21842127, b: 0, a: 1}
+    - _Area_Color: {r: 0.8509804, g: 0.05882353, b: 0, a: 1}
+    - _BorderColor: {r: 1, g: 0.22745098, b: 0, a: 1}
     - _Color: {r: 0.990566, g: 0.0046724924, b: 0.0046724924, a: 1}
     - _Player_Position: {r: 2.99, g: -0.511, b: -1.92, a: 0}
   m_BuildTextureStacks: []

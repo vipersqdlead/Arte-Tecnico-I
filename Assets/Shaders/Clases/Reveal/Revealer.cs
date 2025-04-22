@@ -1,16 +1,18 @@
+using System.Collections;
 using UnityEngine;
 
 [ExecuteAlways]
 public class Revealer : MonoBehaviour
 {
     [SerializeField] private Transform _player;
-    [SerializeField] private Material _revealMaterial;
+    [SerializeField] private float _radius;
 
     void Update()
     {
-        if (_revealMaterial != null && _player != null)
+        if (_player != null)
         {
-            _revealMaterial.SetVector("_Revealer_Position", _player.position);
+            Shader.SetGlobalVector("_Revealer_Position", _player.position);
+            Shader.SetGlobalFloat("_Radius", _radius);
         }
     }
 }

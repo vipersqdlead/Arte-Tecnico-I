@@ -109,9 +109,6 @@
             "m_Id": "36735c4133144e42b08dd9f92c81c9b6"
         },
         {
-            "m_Id": "b7b58f6850034b64bc75d3349af32751"
-        },
-        {
             "m_Id": "59fd71323a46459ba83a2864d81eb2de"
         },
         {
@@ -690,21 +687,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "02a6ac0b01c24d389b9c24a93529c0aa",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "048b3b05f1bc4b42895ab504bd7efb18",
     "m_Id": 0,
     "m_DisplayName": "Time",
@@ -1218,7 +1200,7 @@
     "m_Title": "Transparency",
     "m_Position": {
         "x": -928.0,
-        "y": 659.9998779296875
+        "y": 660.0
     }
 }
 
@@ -1424,21 +1406,6 @@
         "z": 0.0,
         "w": 0.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "38afbbb229a1406fbefd99644f0be3c1",
-    "m_Id": 1,
-    "m_DisplayName": "X",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "X",
-    "m_StageCapability": 3,
-    "m_Value": 2.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -2736,49 +2703,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1Node",
-    "m_ObjectId": "b7b58f6850034b64bc75d3349af32751",
-    "m_Group": {
-        "m_Id": "e6c6487e035148b7bf593d78bb0912b0"
-    },
-    "m_Name": "Float",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1460.0,
-            "y": 150.0,
-            "width": 122.0,
-            "height": 33.99998474121094
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "38afbbb229a1406fbefd99644f0be3c1"
-        },
-        {
-            "m_Id": "02a6ac0b01c24d389b9c24a93529c0aa"
-        }
-    ],
-    "synonyms": [
-        "Vector 1",
-        "1",
-        "v1",
-        "vec1",
-        "scalar"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Value": 0.0
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "b906761008124e15b465485996e2b128",
     "m_Group": {
@@ -3493,7 +3417,7 @@
     "m_ObjectId": "e6c6487e035148b7bf593d78bb0912b0",
     "m_Title": "Lava",
     "m_Position": {
-        "x": -1971.9998779296875,
+        "x": -1972.0,
         "y": -135.0
     }
 }

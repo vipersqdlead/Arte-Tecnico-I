@@ -954,8 +954,8 @@
     "m_ObjectId": "0977e157c955461483e8948f4e5e29aa",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -889.0,
-        "y": 1899.0
+        "x": -889.000244140625,
+        "y": 1899.000244140625
     }
 }
 
@@ -1621,8 +1621,8 @@
     "m_ObjectId": "2e757b464e9f4e3e83328b9e88294805",
     "m_Title": "Depth Color",
     "m_Position": {
-        "x": -685.0,
-        "y": 2673.0
+        "x": -684.9999389648438,
+        "y": 2673.000244140625
     }
 }
 
@@ -1695,8 +1695,8 @@
     "m_ObjectId": "341c788a5d394b4ab7c9e33a30a3916d",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -1313.0,
-        "y": 3142.0
+        "x": -1313.000244140625,
+        "y": 3142.00048828125
     }
 }
 
@@ -2874,10 +2874,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "8463170676c841e8b1c4adab538b00fb",
     "m_Id": -1278437944,
-    "m_DisplayName": "Wave Strength",
+    "m_DisplayName": "Strength",
     "m_SlotType": 0,
     "m_Hidden": false,
-    "m_ShaderOutputName": "_Wave_Strength",
+    "m_ShaderOutputName": "_Strength",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -3226,8 +3226,8 @@
     "m_ObjectId": "941c58edce2447faa520394c8630b2cb",
     "m_Title": "Interpolaciones",
     "m_Position": {
-        "x": 72.0,
-        "y": 2673.0
+        "x": 71.999755859375,
+        "y": 2673.000244140625
     }
 }
 
@@ -3441,10 +3441,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9cadcf8a36fd4085bcb76bd4c18f9771",
     "m_Id": -1399144400,
-    "m_DisplayName": "Wave Speed",
+    "m_DisplayName": "Speed",
     "m_SlotType": 0,
     "m_Hidden": false,
-    "m_ShaderOutputName": "_Wave_Speed",
+    "m_ShaderOutputName": "_Speed",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -3869,9 +3869,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -90.9998550415039,
+            "x": -90.0,
             "y": 3562.0,
-            "width": 55.99987030029297,
+            "width": 56.0,
             "height": 24.0
         }
     },

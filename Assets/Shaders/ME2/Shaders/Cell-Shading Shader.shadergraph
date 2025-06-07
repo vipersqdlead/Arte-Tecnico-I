@@ -623,7 +623,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -1376,7 +1376,7 @@
     "m_ObjectId": "6cf9fa7fef0d4b7cb69a15a978e71ebf",
     "m_Title": "Vertex Position",
     "m_Position": {
-        "x": -1571.9998779296875,
+        "x": -1571.999755859375,
         "y": -1103.0
     }
 }
@@ -2493,8 +2493,8 @@
     "m_ObjectId": "defbbac2a5aa41b1866c03cc35f4baac",
     "m_Title": "Cell-Shading",
     "m_Position": {
-        "x": -1850.9998779296875,
-        "y": -471.0000915527344
+        "x": -1850.999755859375,
+        "y": -471.0
     }
 }
 

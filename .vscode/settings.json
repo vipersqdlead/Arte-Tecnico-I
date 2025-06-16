@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Arte-Tecnico-I.sln"
+    "dotnet.defaultSolution": "dev-Arte-Tecnico-I.sln"
 }

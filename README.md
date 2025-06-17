@@ -37,15 +37,15 @@ Seguimos una estructura basada en **GitFlow**:
 
 Organiza tu trabajo dentro de `/Assets` de la siguiente manera:
 
-Assets/
-├── ME\*/ ← Tu desarrollo del momento evaluativo
-├── Materials/ ← Los materiales creados para la evaluación
-├── Particle System/ ← Los prefabs de sistemas de particulas usados en la evaluación
-├── Scripts/ ← Scripts usados en la evaluación
-├── Scenes/ ← Tus escenas específicas, NO usar SampleScene
-├── Scripts/ ← Código fuente
-├── Shaders/ ← Shaders y SubGraphs
-├── SubGraphs/
+    Assets/
+    ├── ME*/ ← Tu desarrollo del momento evaluativo
+    ├──├── Materials/ ← Los materiales creados para la evaluación
+    ├──├── Scripts/ ← Scripts usados en la evaluación
+    ├──├── Particle System/ ← Los prefabs de sistemas de particulas usados en la evaluación
+    ├──├── Scripts/ ← Código fuente
+    ├── Scenes/ ← Tus escenas específicas, NO usar SampleScene
+    ├── Shaders/ ← Shaders y SubGraphs
+    ├── SubGraphs/
 
 > 📛 **Evita trabajar en `SampleScene.unity`**. Crea tu propia escena con nombre claro y temático: `ME1_Combat`, `ME2_Stealth`, etc.
 

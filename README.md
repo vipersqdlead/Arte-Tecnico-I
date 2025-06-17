@@ -51,17 +51,17 @@ Organiza tu trabajo dentro de `/Assets` de la siguiente manera:
     Assets/
     |
     ├── ME*/ ← Tu desarrollo del momento evaluativo
-    ├──├── Materials/ ← Los materiales creados para la evaluación
-    ├──├── Scripts/ ← Scripts usados en la evaluación
-    ├──├── Particle System/ ← Los prefabs de sistemas de particulas usados en la evaluación
-    ├──├── Scripts/ ← Código fuente
+    |  ├── Materials/ ← Los materiales creados para la evaluación
+    |  ├── Scripts/ ← Scripts usados en la evaluación
+    |  ├── Particle System/ ← Los prefabs de sistemas de particulas usados en la evaluación
+    |  ├── Scripts/ ← Código fuente
     |
     ├── ParticleSystem/ ← Prefabs de sistemas de particulas desarrollados en clases
     |
     ├── Scenes/ ← Tus escenas específicas, NO usar SampleScene
     |
     ├── Shaders/ ← Shaders y SubGraphs desarrollados en clases
-    ├──├── SubGraphs/
+    |  ├── SubGraphs/
 
 > 📛 **Evita trabajar en `SampleScene.unity`**. Crea tu propia escena con nombre claro y temático: `ME1_Borrador`, `Clase_Fireball`, etc.
 
@@ -84,7 +84,8 @@ Utilizamos [Conventional Commits](https://www.conventionalcommits.org):
 Por lo tanto a la hora de escribir un commit debemos señalar el tipo de trabajo realizado.
 
 📝 Ejemplo:  
-`feat: add player movement system` este commit indica que se agregó una nueva característica al proyecto, un sistema de movimiento de player.
+`feat: add player movement system` 
+Este commit indica que se agregó una nueva característica al proyecto, un sistema de movimiento de player.
 
 ---
 

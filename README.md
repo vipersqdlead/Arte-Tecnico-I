@@ -45,9 +45,9 @@ Organiza tu trabajo dentro de `/Assets` de la siguiente manera:
     ├──├── Scripts/ ← Código fuente
     ├── Scenes/ ← Tus escenas específicas, NO usar SampleScene
     ├── Shaders/ ← Shaders y SubGraphs
-    ├── SubGraphs/
+    ├──├── SubGraphs/
 
-> 📛 **Evita trabajar en `SampleScene.unity`**. Crea tu propia escena con nombre claro y temático: `ME1_Combat`, `ME2_Stealth`, etc.
+> 📛 **Evita trabajar en `SampleScene.unity`**. Crea tu propia escena con nombre claro y temático: `ME1_Borrador`, `Clase_Fireball`, etc.
 
 ---
 

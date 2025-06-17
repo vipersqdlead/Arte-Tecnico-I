@@ -4,6 +4,17 @@ Este repositorio contiene el proyecto de Unity utilizado para la clase **Arte T�
 
 ---
 
+## 🚫 Reglas y Buenas Prácticas
+
+- ⛔ **No trabajes dentro de `SampleScene.unity`**.
+- ⛔ **No hagas commit directo a `main`**.
+- ❌ No dejes `Debug.Log` o código de prueba en producción.
+- 🔌 No añadas paquetes sin comunicarlo.
+- ⚙️ No cambies configuraciones globales sin consenso.
+- 🧼 Evita nombres ofensivos o groseros en commits, variables o comentarios.
+
+---
+
 ## 🚀 Flujo de Trabajo
 
 Seguimos una estructura basada en **GitFlow**:
@@ -69,17 +80,6 @@ Por lo tanto a la hora de escribir un commit debemos señalar el tipo de trabajo
 
 📝 Ejemplo:  
 `feat: add player movement system` este commit indica que se agregó una nueva característica al proyecto, un sistema de movimiento de player.
-
----
-
-## 🚫 Reglas y Buenas Prácticas
-
-- ⛔ **No trabajes dentro de `SampleScene.unity`**.
-- ⛔ **No hagas commit directo a `main`**.
-- ❌ No dejes `Debug.Log` o código de prueba en producción.
-- 🔌 No añadas paquetes sin comunicarlo.
-- ⚙️ No cambies configuraciones globales sin consenso.
-- 🧼 Evita nombres ofensivos o groseros en commits, variables o comentarios.
 
 ---
 

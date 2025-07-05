@@ -152,7 +152,12 @@ public class PlaneCamera : MonoBehaviour
 			target = GetClosestTargetByDistance(self, possibleTargets);
 		}
 		
-		FlightModel fm = target.GetComponent<FlightModel>();
+		//FlightModel fm = target.TryGetComponent<FlightModel>();
+		FlightModel fm;
+		if (target.TryGetComponent<FlightModel>(out fm))
+		{
+			return fm;
+		}
 		
 		if(fm != null)
 		{
@@ -168,7 +173,6 @@ public class PlaneCamera : MonoBehaviour
 	{
 		List<Transform> nearbyTargets = new List<Transform>();
 
-		// Get all colliders in the area
 		Collider[] hits = Physics.OverlapSphere(playerTransform.position, searchRadius);
 
 		foreach (Collider hit in hits)
@@ -179,16 +183,15 @@ public class PlaneCamera : MonoBehaviour
 				{
 					continue;
 				}
-            // Optional: Make sure it's an aircraft with needed components
 				if (hit.transform.TryGetComponent<AircraftHub>(out var hub))
 				{
 					nearbyTargets.Add(hit.transform);
 				}
+				/*
 				else
 				{
-					// Fallback: Add anyway if no check needed
 					nearbyTargets.Add(hit.transform);
-				}
+				}*/
 			}
 		}
 		return nearbyTargets;
